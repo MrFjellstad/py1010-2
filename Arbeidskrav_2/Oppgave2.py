@@ -4,7 +4,7 @@ Alle før 1/4 pizza hver
 """
 import math
 
-antall_elever = int(input('Skriv inn antall elever:' ))
+antall_elever = int(input('Skriv inn antall elever:'))
 antall_elever_pr_pizza = 4
 antall_pizza = math.ceil(antall_elever / antall_elever_pr_pizza)
 
