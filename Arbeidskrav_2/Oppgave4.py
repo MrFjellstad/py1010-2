@@ -8,7 +8,7 @@ data = {
 land = input("Skriv inn et land:")
 
 
-if (land in data):
+if land in data:
     print(f"{data[land][0]} er hovedstaden i {land} og det er {data[land][1]} mill. innbyggere i {data[land][0]}.")
 else:
     print(f"Fant ikke {land} i databasen.")
